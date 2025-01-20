@@ -62,7 +62,7 @@ export default function NewProject({ onAdd, onCancel }) {
           </li>
         </menu>
         <Input type="text" ref={title} label="Title" />
-        <Input ref={description} label="Description" textarea="true" />
+        <Input ref={description} label="Description" textarea />
         <Input type="date" ref={dueDate} label="Due Date" />
       </div>
     </>
